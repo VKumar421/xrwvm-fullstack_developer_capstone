@@ -37,7 +37,6 @@ const Dealers = () => {
       all_dealers.forEach((dealer)=>{
         states.push(dealer.state)
       });
-
       setStates(Array.from(new Set(states)))
       setDealersList(all_dealers)
     }
